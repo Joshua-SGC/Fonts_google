@@ -1,0 +1,183 @@
+@font-face{
+    font-family: Awesome;
+    src: url(extensiones/AwesomeFreeFont.otf);
+}
+
+@font-face {
+    font-family: DevilCandle;
+    src: url(extensiones/DevilCandle_PERSONAL_USE_ONLY.otf);
+}
+
+@font-face {
+    font-family: PerfectBeloved;
+    src: url(extensiones/PerfectBeloved.otf);
+}
+
+/*---------------------------------------------------------------------------*/
+*{
+    margin: 0; padding: 0;
+}
+
+html{
+    background: #000;
+}
+ 
+
+body{
+    width: 750px;
+    height: 1000px;
+    margin: auto;
+    background: #42e5a4;
+}
+
+section#banner{
+    width: 250px; height: 250px;
+    background-color: #1a025d;
+    font-family: Awesome;
+    float: left;
+}
+
+ 
+
+section#logo{
+    width: 250px; height:250px;
+    background-color: #a08383;
+    font-family: DevilCandle;
+    float: left;
+
+}
+
+ 
+
+section#login{
+    width: 250px; height: 250px;
+    background-color: #dd2c2c;
+    font-family: PerfectBeloved;
+    float: left;
+}
+
+ 
+
+.caja{
+    position: relative;
+    display: inline-block;
+}
+
+ 
+
+#uno{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    background: #780e0e;
+    color: #000;
+}
+
+ 
+
+#dos{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    background-color: #724b4b;
+    color: rgb(255, 255, 255);
+}
+
+ 
+
+#tres{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    background: #34ee62;
+    color: #201b1b;
+}
+
+ 
+
+nav{
+    width: 750px; height: 250px;
+    background: #01338a;
+    font-family: PerfectBeloved;
+    color: yellow;
+    font-size: 20px;
+}
+
+ 
+
+section#inicio{
+    width: 250px; height: 250px;
+    background-color: #5b0544;
+    float: left;rgb(32, 5, 91)rgb(69, 12, 192)
+}
+
+section#producto{
+    width: 250px; height: 250px;
+    background-color: #e97e14;
+    float: left;
+}
+
+section#contacto{
+    width: 250px; height: 250px;
+    background-color: #f15151;
+    float: right;
+}
+
+ 
+
+main{
+    width: 750px; height: 250px;
+    font-family: brogte;
+    color: rgb(46, 119, 183);
+    font-size: 20px;
+}
+
+aside#hoy{
+    width: 250px; height: 250px;
+    background-color: #6cf31e;
+    float: left;
+}
+
+article#novedades{
+    width: 250px; height: 250px;
+    background-color: #0f264e;
+    float: left;
+}
+
+ 
+
+aside#internacional{
+    width: 250px; height: 250px;
+    background-color: rgb(20, 223, 173);
+    float: right;
+}
+
+footer{
+    width: 750px; height: 250px;
+    font-size: 20px;
+    background: #d0fa00;
+    color: #000000;
+    font-family: DevilCandle;
+}
+
+ 
+
+aside#creditos{
+    width: 250px; height: 250px;
+    background-color: #bb1ac6;
+    float: left;rgb(233, 65, 245)
+}
+
+article#lugar{
+    width: 250px; height: 250px;
+    background-color: #d30101;
+    float: left;
+}
+
+ 
+
+aside#correo{
+    width: 250px; height: 250px;
+    background-color: rgb(228, 0, 167);
+    float: right;
+}
